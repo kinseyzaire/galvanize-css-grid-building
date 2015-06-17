@@ -12,7 +12,3 @@
 1. In the terminal, `cd` into the root of this project.
 1. Run `python -m SimpleHTTPServer` to start a server.
 1. Visit localhost:8000 to see the index page
-
-
-## Mockup:
-![img/example.png](img/example.png)
