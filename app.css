@@ -1,1 +1,61 @@
 /*Your code here*/
+* {
+   box-sizing: border-box;
+}
+
+header, div, footer, article, aside, main {
+   border: 1px solid black;
+   padding-bottom: 15px;
+}
+section {
+   border: 1px dotted black;
+   padding-bottom: 15px;
+
+   }
+.tall {
+   height: 150px;
+}
+.xtall {
+   height: 300px;
+}
+.center {
+   text-align: center;
+}
+p {
+   margin-left: 3%;
+   padding-top: 10px;
+}
+
+/* -------- COLUMN LAYOUTS -------*/
+/* -- Column Sizes -- */
+
+.one_fourth   { width:21.25%; }
+.one_third    { width:29.333%; }
+.one_half     { width:45.5%; }
+.two_third    { width:61.666%; }
+.three_fourth { width:69.75%; }
+.one_column   { width:94%; }
+.full_column  { width:100%; }
+.one_twelth    { width:7.25% }
+
+/* -- Column Margin & Float-- */
+.one_half,.one_third,.two_third,
+.three_fourth,.one_fourth,.one_column,
+.full_column, .one_twelth {
+  margin-left:3%;
+  margin-top:1%;
+  float:left;
+}
+
+.one_twelth {
+  margin-left:1%;
+  margin-top:1%;
+  float:left;
+}
+
+/* -- Clearfix -- */
+  .row:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
